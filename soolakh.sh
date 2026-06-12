@@ -730,7 +730,6 @@ display_soolakh_core_status() {
     else
         printf '   \033[36m%-14s\033[90m: \033[91m%s\033[0m\n' "Soolakh Core" "Not installed"
     fi
-    printf '   \033[36m%-14s\033[90m: \033[93m%s\033[0m\n' "Script" "$SCRIPT_VERSION"
     hr blue
 }
 check_config_backup() {
